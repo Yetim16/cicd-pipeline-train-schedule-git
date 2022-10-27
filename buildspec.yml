@@ -10,12 +10,12 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - zip hello.zip ./index.html 
+      - zip hello.zip views/index.jade
    
 artifacts:
   type: 
   files:
-    -view/index.html
+    -views/index.jade
     - appspec.yml
     - scripts/install_dependencies
     - scripts/start_server
