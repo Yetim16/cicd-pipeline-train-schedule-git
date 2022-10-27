@@ -15,7 +15,7 @@ phases:
 artifacts:
   type: 
   files:
-    -views/index.jade
+    - views/index.jade
     - appspec.yml
     - scripts/install_dependencies
     - scripts/start_server
